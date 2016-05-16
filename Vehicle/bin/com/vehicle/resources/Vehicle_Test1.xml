@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vehicles>
 	<vehicle>
-		<id>Bajaj Auto</id>
+		<id>Bajaj Auto </id>
 		<frame>
 			<material>plastic</material>
 		</frame>

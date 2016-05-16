@@ -19,7 +19,7 @@ import com.vehicle.util.XmlParser;
 /**
  * VehicleIdentifier is a main class for Vehicle identification This class takes
  * the default XML file as input from package com/vehicle/resources/vehicles.xml
- * if the user does not provide the XML as argument.
+ * if the user does not provide the XML as argument. 
  * 
  */
 public class VehicleIdentifier

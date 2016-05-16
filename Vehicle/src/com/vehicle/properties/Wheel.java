@@ -1,7 +1,7 @@
 package com.vehicle.properties;
 
 /*
- * Wheel class with its attributes.
+ * Wheel class with its attributes.   
  */
 
 public class Wheel

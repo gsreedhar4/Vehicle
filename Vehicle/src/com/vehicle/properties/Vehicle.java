@@ -3,7 +3,7 @@ package com.vehicle.properties;
 import java.util.List;
 
 /*
- * Vehicle class with its attributes
+ * Vehicle class with its attributes  
  */
 
 public class Vehicle

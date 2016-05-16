@@ -1,6 +1,6 @@
 package com.vehicle.properties;
 
-public class Frame
+public class Frame  
 {
 
 	private String material;

@@ -1,6 +1,6 @@
 package com.vehicle.test;
 
-import java.io.IOException;
+import java.io.IOException;   
 import java.util.List;
 import java.util.Map;
 
@@ -23,12 +23,12 @@ public class VehicleIdentifierTest extends TestCase
 	{
 		try
 		{
-			VehicleIdentifier vci = new VehicleIdentifier();			
-			vci.run("", true);
+			VehicleIdentifier vci = new VehicleIdentifier(); 			
+			vci.run("", true); 
 			assertTrue("Programm accepting empty string as file path. ",false);
 		} catch (ParserConfigurationException  | SAXException| IOException ex)
 		{
-			assertTrue(true);
+			assertTrue(true); 
 		}		
 	}
 	

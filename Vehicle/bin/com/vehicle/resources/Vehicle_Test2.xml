@@ -3,7 +3,7 @@
 	<vehicle>
 		<id>Bajaj Auto</id>
 		<frame>
-			<material>plastic</material>
+			<material>plastic </material>
 		</frame>
 		<wheels>
 			<wheel>
@@ -24,7 +24,7 @@
 		</powertrain>
 	</vehicle>
 	<vehicle>
-		<id>Atlas 123</id>
+		<id>Atlas 123 </id>
 		<frame>
 			<material>metal</material>
 		</frame>

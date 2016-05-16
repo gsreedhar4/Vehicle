@@ -16,7 +16,7 @@ import com.vehicle.properties.Wheel;
  * 
  */
 
-public class VehicleClassifier
+public class VehicleClassifier 
 {
 
 	public void clisifyVehicles(List<Vehicle> vehicles)
