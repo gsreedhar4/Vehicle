@@ -15,7 +15,7 @@ import com.vehicle.properties.Wheel;
  * XmlParser parses the given XML file and gives back parsed data
  */
 
-public class XmlParser extends DefaultHandler
+public class XmlParser extends DefaultHandler 
 {
 
 	private List<Vehicle> vehicles;
