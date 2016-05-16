@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+	<vehicle>
+		<id>Bajaj Auto</id>
+		<frame>
+			<material>plastic</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>left rear</position>
+				<material>plastic</material>
+			</wheel>
+			<wheel>
+				<position>right rear</position>
+				<material>plastic</material>
+			</wheel>
+			<wheel>
+				<position>front</position>
+				<material>plastic</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<human />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>Atlas 123</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front</position>
+				<material>metal</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<human />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>Atlas 124</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front</position>
+				<material>metal</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<human />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>Bajaj Auto DSL</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>left rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>right rear</position>
+				<material>plastic</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<human />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>Audi</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>front right</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front left</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>rear left</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>rear right</position>
+				<material>metal</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<InternalCombustion />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>BMW</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>front right</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front left</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>rear left</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>rear right</position>
+				<material>metal</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<InternalCombustion />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>Avenger</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front</position>
+				<material>metal</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<InternalCombustion />
+		</powertrain>
+	</vehicle>
+</vehicles>

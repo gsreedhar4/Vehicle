@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Vehicle" basedir="." default="run">
+
+<property name="src" value="src"/>
+<property name="build" value="build/classes"/>
+<property name="resources" value="build/classes/com/vehicle/resources"/>
+<property name="dist" value="dist"/>
+<property name="mainClass" value="com.vehicle.main.VehicleIdentifier"/>
+
+    <target name="clean">
+        <delete dir="build"/>
+        <delete dir="dist"/>
+    </target>
+
+   <target name="createdir">
+	   <mkdir dir="${build}"/>
+	   <mkdir dir="${resources}"/>	   
+	   <mkdir dir="${dist}"/>
+   </target>
+
+    <target name="compile" depends="clean,createdir">        
+        <javac includeantruntime="false" srcdir="${src}" destdir="${build}">
+        	 <classpath>
+        	            <pathelement path="lib/junit.jar"/>
+        	  </classpath>
+        	</javac>
+        <copy todir="${resources}">
+            <fileset dir="src/com/vehicle/resources"/>
+        </copy>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="dist/Vehicle.jar" basedir="${build}">
+            <manifest>
+                <attribute name="Main-Class" value="${mainClass}"/>
+            </manifest>
+        </jar>
+    </target>
+
+	<target name="test" depends="compile">
+	   <junit haltonfailure="true"  fork="true" printsummary="true">
+	   	<classpath location="${build}" />
+	      <test name="com.vehicle.test.VehicleIdentifierTest"/>
+	   </junit>
+	</target>
+    <target name="run" depends="jar,test">
+        <java jar="${dist}/Vehicle.jar" fork="true"/>
+    </target>
+
+</project>
